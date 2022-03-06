@@ -1,0 +1,564 @@
+{
+	"id": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+	"name": "react",
+	"description": "",
+	"order": [
+		"aff7765c-0f29-fde1-f72e-d22eb6f5d22f",
+		"e3acd521-f2f9-00db-2e83-bb463095562f",
+		"4269306b-1d4a-d723-d028-56b8c8934b68",
+		"e9b4e705-a697-5722-4f89-448f9c1cc2ef",
+		"717b7e69-82fa-ac33-8186-0ff1acb27c45",
+		"e51ca89f-0357-9a21-916a-8684dfcc816e",
+		"74b4e14c-53de-9d91-480a-a963048b8420",
+		"0cca2aa0-8a48-d35c-c1a1-1ce1aacafa2f",
+		"8b4c2dc4-0d27-8e36-0eee-a8394d7fcded",
+		"992a7fe0-6286-f68d-bd10-15d5468a361b",
+		"5346952f-3732-eee2-ebad-f48f19fb531a",
+		"02d226ed-292e-a1f7-9c6a-153081bd7cca",
+		"ee54a0e0-e74c-2c5d-58f7-f17c031bd23c",
+		"bef8c1f4-7a22-29e2-1d92-3ff9fc1755e6",
+		"b6f56a38-35bc-a73b-c63a-cbc4cab33ace",
+		"2f563509-6409-84fd-67fb-e686da101cce",
+		"2d3bc81e-430a-7fbf-019c-1fe83b5eb242",
+		"e82f2f2d-1168-5e54-1f5b-78fbc0ee1f0e",
+		"d3d28a0d-f301-d820-5bc2-1b4f2369ea5c"
+	],
+	"folders": [],
+	"timestamp": 1614846287069,
+	"owner": "14759971",
+	"public": false,
+	"requests": [
+		{
+			"id": "02d226ed-292e-a1f7-9c6a-153081bd7cca",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://120.55.193.14:5000/manage/img/delete",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "img",
+					"value": "image-1615381890653.jpg",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615386763949,
+			"name": "删除图片",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": []
+		},
+		{
+			"id": "0cca2aa0-8a48-d35c-c1a1-1ce1aacafa2f",
+			"headers": "",
+			"url": "http://120.55.193.14:5000/manage/catogory/info?categoryId",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615281113674,
+			"name": "根据分类id获取分类",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": []
+		},
+		{
+			"id": "2d3bc81e-430a-7fbf-019c-1fe83b5eb242",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://120.55.193.14:5000/manage/role/update",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "roleName",
+					"value": "roleNam",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "_id",
+					"value": "604c32a7ff646469005f9f44",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "auth_name",
+					"value": "1111",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "menus",
+					"value": "/category",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "menus",
+					"value": "/home",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "auth_name",
+					"value": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615635349236,
+			"name": "更新权限",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": []
+		},
+		{
+			"id": "2f563509-6409-84fd-67fb-e686da101cce",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://120.55.193.14:5000/manage/role/add",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "roleName",
+					"value": "roleNam",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615606441686,
+			"name": "添加角色",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": []
+		},
+		{
+			"id": "4269306b-1d4a-d723-d028-56b8c8934b68",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://120.55.193.14:5000/manage/category/add",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"data": [
+				{
+					"key": "categoryName",
+					"value": "111级分类",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "parentId",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "添加商品类别",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1614848828536,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "5346952f-3732-eee2-ebad-f48f19fb531a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:5000/manage/img/upload",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "img",
+					"value": "002.jpg",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615381557504,
+			"name": "上传图片",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": []
+		},
+		{
+			"id": "717b7e69-82fa-ac33-8186-0ff1acb27c45",
+			"headers": "",
+			"url": "http://120.55.193.14:5000//manage/category/update",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1614951300498,
+			"name": "更新列表",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": []
+		},
+		{
+			"id": "74b4e14c-53de-9d91-480a-a963048b8420",
+			"headers": "",
+			"url": "http://120.55.193.14:5000/manage/product/search?productDesc=&pageNum=1&pageSize=2",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615254110587,
+			"name": "搜索商品",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": []
+		},
+		{
+			"id": "8b4c2dc4-0d27-8e36-0eee-a8394d7fcded",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://120.55.193.14:5000/manage/product/updateStatus",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "productId",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615292062355,
+			"name": "更新商品状态",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": []
+		},
+		{
+			"id": "992a7fe0-6286-f68d-bd10-15d5468a361b",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://120.55.193.14:5000//manage/product/add",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "categoryId",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pCategoryId",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615366304384,
+			"name": "添加商品",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": []
+		},
+		{
+			"id": "aff7765c-0f29-fde1-f72e-d22eb6f5d22f",
+			"headers": "",
+			"url": "http://120.55.193.14:5000/manage/category/list?parentId=0",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1614846393010,
+			"name": "请求列表",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": []
+		},
+		{
+			"id": "b6f56a38-35bc-a73b-c63a-cbc4cab33ace",
+			"headers": "",
+			"url": "http://120.55.193.14:5000/manage/user/list",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615515915504,
+			"name": "获取用户列表",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": []
+		},
+		{
+			"id": "bef8c1f4-7a22-29e2-1d92-3ff9fc1755e6",
+			"headers": "",
+			"url": "http://120.55.193.14:5000/manage/role/list",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615515917456,
+			"name": "获取角色列表",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": []
+		},
+		{
+			"id": "d3d28a0d-f301-d820-5bc2-1b4f2369ea5c",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://120.55.193.14:5000/manage/user/add",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "username",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615808584725,
+			"name": "添加用户",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": []
+		},
+		{
+			"id": "e3acd521-f2f9-00db-2e83-bb463095562f",
+			"headers": "",
+			"url": "restapi.amap.com/v3/weather/weatherInfo?key=98c97d10c1fda37bdc5402d15c1cdd71&city=北京",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"data": null,
+			"dataMode": "params",
+			"name": "请求天气",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1614846425996,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e51ca89f-0357-9a21-916a-8684dfcc816e",
+			"headers": "",
+			"url": "http://120.55.193.14:5000/manage/product/list",
+			"preRequestScript": "pageNum=1&pageSize=5",
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615252578081,
+			"name": "请求商品分页列表",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": []
+		},
+		{
+			"id": "e82f2f2d-1168-5e54-1f5b-78fbc0ee1f0e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://120.55.193.14:5000/manage/user/delete",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "userId",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615768887323,
+			"name": "删除一个用户",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": []
+		},
+		{
+			"id": "e9b4e705-a697-5722-4f89-448f9c1cc2ef",
+			"headers": "",
+			"url": "http://120.55.193.14:5000/manage/category/list?parentId=0",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1614846393010,
+			"name": "请求二级列表 ",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "aff7765c-0f29-fde1-f72e-d22eb6f5d22f"
+		},
+		{
+			"id": "ee54a0e0-e74c-2c5d-58f7-f17c031bd23c",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://120.55.193.14:5000//manage/product/update",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "categoryId",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pCategoryId",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "desc",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "_id",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615467457718,
+			"name": "更新商品",
+			"description": "",
+			"collectionId": "b96a5dd9-8e3c-583b-655a-9e2a9f25e5b7",
+			"responses": []
+		}
+	]
+}
